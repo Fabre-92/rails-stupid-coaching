@@ -4,9 +4,9 @@
   </div>
 
   <div class="answer">
-    <p> <%= @user_input %></p>
+    <p class="user_question"> <%= @user_input %></p>
 
-    <h3><%= @answer %></h3>
+      <h3> <small> coach - </small> <strong> <%= @answer %> </strong></h3>
 
     <p class="continue-ask">
        <%= link_to "continue asking cuestions", contact_path  %>
